@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* STYLE CSS: Header  */
+header{
+    padding: 20px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top .box{
+    display: flex;
+}
+
+.header-top .left h1{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.header-top .left img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.header-top .right .box-icons{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.219);
+    margin-right: 10px;
+}
+
+.header-top .right .box-icons:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.header-top .right .box-icons i {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+.header-top .right .box-p{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #1b3d9b69;
+    margin-top: 2px;
+}
+
+.header-top .right .box-p:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.header-top .right .box-p p {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 9px;
+}
+
+.header-bottom{
+    margin: 15px 0px -10px;
+}
+
+.header-bottom ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom ul li {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0px 10px;
+    padding: 10px 0px 20px;
+}
+
+.header-bottom ul li:hover{
+    cursor: pointer;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+hr{
+    color: gray;
+    margin-top: -11px;
+}
+
+/* STYLE CSS: Header fine */
+
+/* STYLE CSS: Main */
+.container-faq{
+    padding: 10px 150px 30px;
+}
+
+.container-faq h4{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 70px 0px 30px;
+}
+
+.stampa p{
+    margin: 30px 0px;
+}
+
+.stampa span{
+    color: blue;
+    cursor: pointer;
+}
+
+.container-faq .no-style{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.container-faq ul,ol{
+    margin: 20px;
+}
+/* STYLE CSS: Main fine */
+
+/* STYLE CSS: Footer */
+footer{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(221, 218, 218, 0.371);
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    font-size: 13px;
+    color: gray;
+    margin-right: 5px;
+}
+
+footer ul li:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+footer .box{
+    display: flex;
+}
+
+footer .box i{
+    color: rgb(0, 145, 255);
+    margin-right: 10px;
+}
+
+footer .box i:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+footer .box select{
+    width: 100px;
+}
+/* STYLE CSS: Footer fine */
